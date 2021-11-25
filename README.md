@@ -43,7 +43,7 @@
     6) [Deepfool]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack deepfool --targeted False --attack_dir deepfool
     7) [CW_L2]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack cw --targeted True --attack_dir cw
     8) [CW_Linf]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack cw_Linf --targeted True --attack_dir cw_Linf --eps 0.031
-    9) [CW_Linf]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack square --targeted False --attack_dir square --eps 0.031
+    9) [Square]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack square --targeted False --attack_dir square --eps 0.031
     10) [Boundary]: python src/scripts/attack.py --checkpoint_dir /tmp/adversarial_robustness/cifar10/resnet34/regular/resnet34_00 --attack boundary --targeted True --attack_dir boundary
 
 
